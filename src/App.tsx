@@ -1,4 +1,5 @@
 import Button from './components/Button';
+import Container from './components/Container';
 import Input from './components/Input';
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
       </p>
       <p>
         <Button href="google">Anchor</Button>
+      </p>
+      <p>
+        <Container as={Button}>Container</Container>
       </p>
     </main>
   );
